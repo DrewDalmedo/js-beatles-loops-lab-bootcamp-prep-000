@@ -1,8 +1,8 @@
 // add solution here
 function theBeatlesPlay(musicians, instruments) {
-  var empty = new array();
+  var empty = [];
   empty.push('test');
   console.log(empty);
 }
 
-theBeatlesPlay(new array(), new array());
+theBeatlesPlay([], []);
