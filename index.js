@@ -1,8 +1,10 @@
 // add solution here
 function theBeatlesPlay(musicians, instruments) {
+  // creating an empty variable
   var empty = [];
-  empty.push('test');
-  console.log(empty);
+  // for loop
+  
+  
 }
 
 theBeatlesPlay([], []);
