@@ -4,8 +4,10 @@ function theBeatlesPlay(musicians, instruments) {
   var statements = [];
   // for loop (iterating through musicians)
   for(var i = 0; i < musicians.length; i++) {
-    statements.push(`${} plays ${}`);
+    statements.push(`${musicians[i]} plays ${instruments[i]}`);
   }
+
+  return statements;
 
 }
 
