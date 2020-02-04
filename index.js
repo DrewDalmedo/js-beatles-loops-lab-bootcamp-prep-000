@@ -15,8 +15,10 @@ function johnLennonFacts(facts) {
   var num = 0;
   var formattedFacts = facts;
   while (num < facts.length) {
-    
+    formattedFacts[num] = facts[num].concat("!!!");
+    num++;
   }
 
+  return formattedFacts;
 
 }
