@@ -10,5 +10,3 @@ function theBeatlesPlay(musicians, instruments) {
   return statements;
 
 }
-
-theBeatlesPlay([], []);
